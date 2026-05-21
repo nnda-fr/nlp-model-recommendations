@@ -1,0 +1,43 @@
+%%writefile .gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Jupyter Notebook / IPython
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+virtualenv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# Machine Learning
+# Keras / TensorFlow checkpoints and logs
+logs/
+keras_tuner_dir/
+keras_tuner_dir_rating/
+
+# Specific model files - explicitly mentioned to be committed but often large
+# nlp_recommendation_model.keras
+# best_rating_prediction_model.keras
+
+# Data files - merged_df_with_embeddings.csv is explicitly mentioned to be committed
+# However, generally ignore other large or sensitive data files
+*.csv
+!merged_df_with_embeddings.csv
+
+# Colab Specific
+.config/
+sample_data/
+
+# Flask
+instance/
+.flaskenv
