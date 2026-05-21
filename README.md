@@ -118,13 +118,3 @@ To run the Flask API locally (or in a Colab environment):
 │   └── cleaned_nutrition_dataset_per100g.csv
 └── logs/
     └── # TensorBoard logs
-
-```
-
-## Contributing
-
-Feel free to fork the repository, open issues, or submit pull requests. Any contributions are welcome!
-
-## License
-
-[Specify your license here, e.g., MIT License]
